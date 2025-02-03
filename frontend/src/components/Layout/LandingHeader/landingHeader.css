@@ -1,0 +1,43 @@
+
+.header-LandingNav{
+    width: 100%;
+    /* background-color: red; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    
+}
+
+
+
+
+.LandingHeaderNav2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    background-color: var(--color-background) ;
+
+}
+.register-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.LandingHeaderHeading{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.LandingHeaderLink{
+    background-color: var(--color-background);
+        padding: 10px 20px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1E2022;
+    color: #C9D6DF;
+    text-decoration: none;
+}

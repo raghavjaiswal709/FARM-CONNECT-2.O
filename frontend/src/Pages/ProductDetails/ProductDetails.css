@@ -1,0 +1,91 @@
+.productHeading{
+    margin: 70px 80px;
+    
+}
+
+.cardsDiv{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cardTitle{
+    text-decoration: none;
+    
+}
+
+.updateButton{
+    position: relative;
+    right: 30px;
+    width: 265px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+
+.bargainBTN{
+    background-color:  rgb(83, 204, 96);
+}
+
+.productcardMainDiv{
+    display: flex;
+    
+    
+    flex-direction: column;
+}
+
+.ProductDetailsMainDIV{
+    /* background-color: red; */
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    /* background-color: purple; */
+}
+.ProductDetailsMainDIV2{
+    gap: 120px;
+    /* background-color: red; */
+    display: flex;
+    width: 1400px;
+    
+}
+.productDetailsIMG{
+    margin-top: 80px;
+}
+.productDetalisText{
+    width: 500px;
+}
+
+.BargainBtnSectionProduct{
+    margin-top: 40px;
+    margin-right: 90px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.BargainBtnSectionProduct button{
+    width: 120px;
+    font-size: 1rem;
+    color: rgb(240, 245, 249);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.justToFlex{
+    display: flex;
+    gap: 50px;
+}
+.spanProductDetaiils{
+    color: green;
+}
+.giveMargin{
+    margin-top: 40px;
+}
+.titlePRICEProductDetails{
+    margin-top: 40px;
+
+}
+ 

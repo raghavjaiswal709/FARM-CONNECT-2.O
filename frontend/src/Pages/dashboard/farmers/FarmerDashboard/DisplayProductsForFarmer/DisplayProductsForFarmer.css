@@ -1,0 +1,25 @@
+.main-container{
+    margin: 65px;
+}
+
+.cardsContainer{
+    background-color: white;
+    height: 60vh;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding: 30px;
+}
+    
+
+.imageAndTitle{
+    margin-left: 30px;
+    width: 400px;
+}
+.cardHeading{
+    margin: 10px;
+    margin-left: 10px;
+}
+.cardImage{
+    height: 240px;
+    border-radius: 30px;
+}

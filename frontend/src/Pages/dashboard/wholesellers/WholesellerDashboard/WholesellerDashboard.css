@@ -1,0 +1,23 @@
+.headingAfterlogin{
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:60px;
+}
+
+.afterloginNoFilePng{
+    display: flex;
+    justify-content: center;
+}
+
+.noFilePng{
+    height: 400px;
+}
+
+.WholwselelrOPions{
+    display: flex;
+    gap: 50px;
+}

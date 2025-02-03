@@ -1,0 +1,84 @@
+.blinkingfarmerpng{
+    height: 550px;
+    margin-top: -50px;
+    width: auto;
+}
+.fDashboardSecContainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 200px;
+    margin-top: 100px;
+    margin-left:80px;
+}
+
+.masscontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.fDBH1{
+    margin-top: 40px;
+    font-size:4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fDashboardSec1Manage{
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+   
+}
+.loginas-buttDashManage{
+    text-decoration: none;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-decoration: none;
+    
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    color: rgb(30, 32, 34);
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.loginas-buttDashManage:hover{
+    background-color: rgb(30, 32, 34);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+.megaCategoryControllerdiv{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 70px; */
+    margin-top: 60px;
+}
+
+.category_controller{
+    width: 1100px;
+    gap: 20px;
+    
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+
+    
+}
+
+.table{
+    margin-top: 40px;
+}
+
+body{
+    background-color: #F0F5F9;
+}

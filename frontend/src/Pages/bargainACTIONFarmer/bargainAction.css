@@ -1,0 +1,10 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards-Container{
+    display: flex;
+    flex-wrap: wrap;
+}

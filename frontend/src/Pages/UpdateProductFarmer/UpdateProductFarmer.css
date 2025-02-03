@@ -1,0 +1,10 @@
+/* .centerForm{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+} */
+
+.addProductSectionwithH12{
+    display: flex;
+    justify-content: center;
+}

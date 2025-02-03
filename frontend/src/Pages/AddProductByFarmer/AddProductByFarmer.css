@@ -1,0 +1,145 @@
+.addH1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+
+}
+
+.addProductSectionwithH1{
+    margin: 70px;
+    margin-top: 0px;
+}
+
+.AddProductcontainer{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    gap: 50px;
+}
+
+.maixefarmpng{
+    height: 500px;
+    margin-top: -400px;
+}
+
+.selectoption{
+  padding: 12px;
+}
+
+.imagechoose{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addProductSectionwithH1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.formAdd {
+    max-width: 620px;
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+
+
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 4px rgba(52, 52, 53, 0.185);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+  }
+
+  .AddInoutfields2{
+    padding: 10px;
+  }
+
+  .inputAndLabelContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column  ;
+  }
+  
+  .titleAdd {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1a202c;
+  }
+
+  .flextosideADD1{
+    display: flex;
+    gap: 171px;
+  }
+
+  .givegapvirticallyBtwLabelAndInput{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .flextosideADD2{
+    display: flex;
+    gap: 90px;
+  }
+
+  .react-select-container{
+    width: 400px;
+  }
+  
+  .labelAdd {
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+  }
+
+  .inputAdd Select{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  .inputAdd {
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 120%;
+    font-size: 1rem;
+    color: #4a5568;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .inputAdd:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #cbd5e0;
+  }
+  
+  .inputAdd:valid {
+    border: 1px solid green;
+  }
+  
+  .inputAdd:invalid {
+    border: 1px solid rgba(14, 14, 14, 0.205);
+  }
+  
+  .submit {
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+      
+      
+      

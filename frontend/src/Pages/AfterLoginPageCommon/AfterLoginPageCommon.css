@@ -1,0 +1,230 @@
+.headingAfterlogin{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:60px;
+}
+
+.afterloginNoFilePng{
+    display: flex;
+    justify-content: center;
+}
+
+.noFilePng{
+    height: 400px;
+}
+
+.productHeading{
+    margin: 70px 80px;
+    
+}
+
+.cardsDiv{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cardTitle{
+    text-decoration: none;
+    
+}
+.BargainBtnSection{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.BargainBtnSection button{
+    width: 120px;
+    font-size: 1rem;
+    color: rgb(240, 245, 249);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.cartBTN{
+    background-color: #f7b001;
+}
+.DetailsBTN{
+    background-color: #1e2022;
+}
+.BuyBTN{
+    background-color: rgb(27, 195, 87);
+}
+.BargainBTN{
+    background-color: #78828a;
+}
+
+.BargainBtnSection button :hover{
+    background-color: red;
+}
+
+.maincontainerviewproductWholeseller{
+    width: 90%;
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.massContiner{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: purple; */
+    margin-left: 70px;
+}
+
+.filterContainer{
+    /* background-color: green; */
+    width: 300px;
+}
+
+.updateButton{
+    position: relative;
+    right: 30px;
+    width: 265px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+
+.bargainBTN{
+    background-color:  rgb(83, 204, 96);
+}
+.massMainContiner{
+    margin-top: 12px;
+}
+
+.filterDiv{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 80px;
+}
+
+.productcardMainDiv{
+    display: flex;
+    flex-direction: column;
+}
+.productHeading{
+    margin: 70px 80px;
+    
+}
+
+.cardsDiv{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cardTitle{
+    text-decoration: none;
+    
+}
+.BargainBtnSection{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.BargainBtnSection button{
+    width: 120px;
+    font-size: 1rem;
+    color: rgb(240, 245, 249);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.cartBTN{
+    background-color: #f7b001;
+}
+.DetailsBTN{
+    background-color: #1e2022;
+}
+.BuyBTN{
+    background-color: rgb(27, 195, 87);
+}
+.BargainBTN{
+    background-color: #78828a;
+}
+
+.BargainBtnSection button :hover{
+    background-color: red;
+}
+.headerAndSeachbar{
+    /* background-color: red; */
+    height: 100px;
+    margin-top: 40px;
+    align-items: center;
+    width: 1190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productHeading{
+    /* background-color: violet; */
+    margin-left: 0px;
+    margin-top: 52px;
+}
+.maincontainerviewproductWholeseller{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.cardPRDUCY{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+.gient2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.massContiner{
+    display: flex;
+    justify-content: left;
+    /* background-color: purple; */
+    margin-left: 70px;
+}
+
+
+.filterContainer{
+    /* background-color: green; */
+    width: 200px;
+    margin-top: 40px;
+}
+
+.contentsOFSEARCHPAGE{
+    background-color: purple;
+}
+
+.updateButton{
+    position: relative;
+    right: 30px;
+    width: 265px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+
+.bargainBTN{
+    background-color:  rgb(83, 204, 96);
+}
+
+.productcardMainDiv{
+    display: flex;
+    flex-direction: column;
+}
+

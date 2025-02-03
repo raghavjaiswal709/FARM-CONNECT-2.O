@@ -1,0 +1,49 @@
+.blinkingfarmerpng{
+    height: 550px;
+    margin-top: -50px;
+    width: auto;
+}
+.fDashboardSecContainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 200px;
+    margin-top: 100px;
+    margin-left:80px;
+}
+
+.masscontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.fDBH1{
+    margin-top: 40px;
+    font-size:4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fDashboardSec1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   
+}
+.loginas-buttDash{
+    text-decoration: none;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-decoration: none;
+    
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #1E2022;
+    color: #C9D6DF;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    border-radius: 40px;
+}

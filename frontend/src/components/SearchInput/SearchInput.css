@@ -1,0 +1,9 @@
+.searchBoxPRODUCT{
+    width: 200px;
+}
+
+.SearchMAINDIV{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}

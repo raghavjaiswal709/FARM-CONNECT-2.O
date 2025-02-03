@@ -1,0 +1,27 @@
+
+/* 
+.light-mode{
+  --color-background: black;
+  --icon-color:#a9a9bc;
+  --icon-hover-bg: #f1f1f3;
+  --placeholder-color: #9f9f9f;
+  --outgoing-chat-bg: #ffffff;
+  --incoming-chat-bg: #f7f7f8;
+  --outgoing-chat-border: #ffffff;
+  --incoming-chat-border: #d9d9e3;
+} */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+  @import url(../src/styles/statics.css);
+@import url(../src/components/Layout/LandingHeader/landingHeader.css);
+@import url(../src/Pages/LandingPage/landingPage.css);
+@import url(../src/Pages/LandingPageReginster/landingPageRegister.css);
+@import url(../src/styles/animations.css);
+
+
+
+body{
+  background-color: red;
+}

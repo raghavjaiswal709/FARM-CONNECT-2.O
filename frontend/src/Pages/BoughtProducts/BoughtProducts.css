@@ -1,0 +1,19 @@
+.mainDIVBoughtProduct{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.megaDIVBOUGHT{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.emptyBagPNG{
+    height: 400px;
+    width: auto;
+}

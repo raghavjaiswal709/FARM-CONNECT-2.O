@@ -1,0 +1,46 @@
+.NavbarAllheader{
+    display: flex;
+    margin: 30px 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.AllHeaderH1{
+    font-family: 'Roboto', sans-serif;
+
+}
+.linkContainerAllHeader{
+    display: flex;
+    gap: 30px;
+}
+
+.optionAllheader{
+    padding: 9px 20px;
+    background-color: #1E2022;
+    color: #C9D6DF;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 40px;
+
+    
+}
+.tractoraaaasvg{
+    height: 69px;
+    position: relative;
+    bottom: 9px;
+}
+.logoTXT{
+    position: relative;
+    top: 8px;
+}
+
+
+.logoDIVVV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+    text-align: center;
+}
