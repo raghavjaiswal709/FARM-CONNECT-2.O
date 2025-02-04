@@ -1,35 +1,35 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import LandingPage from "./Pages/LandingPage/LandingPage";
-import LandingPageRegister from "./Pages/LandingPageReginster/LandingPageRegister";
+import LandingPage from "./Pages/common/LandingPage/LandingPage.jsx";
+import LandingPageRegister from "../src/Pages/Auth/register/LandingPageReginster/LandingPageRegister.jsx";
 import LoginPageForFarmer from "../src/Pages/Auth/login/LoginPageForFarmer/LoginPageForFarmer.jsx";
 import LoginPageForWholeseller from "../src/Pages/Auth/login/LoginPageForWholeseller/LoginPageForWholeseller";
-import RegisterPageForFarmer from "./Pages/ReginsterPage/RegisterPageForFarmer/RegisterPageForFarmer";
-import RegisterPageForWholeseller from "./Pages/ReginsterPage/RegisterPageForWholeseller/RegisterPageForWholeseller";
+import RegisterPageForFarmer from "./Pages/Auth/register/RegisterPageForFarmer/RegisterPageForFarmer.jsx";
+import RegisterPageForWholeseller from "../src/Pages/Auth/register/RegisterPageForWholeseller/RegisterPageForWholeseller.jsx";
 import FarmerDashboard1 from "./Pages/dashboard/farmers/FarmerDashboard/FarmerDashboard.jsx";
-import AddProductByFarmer from "./Pages/AddProductByFarmer/AddProductByFarmer";
+import AddProductByFarmer from "../src/Pages/dashboard/farmers/FarmerDashboard/AddProductByFarmer/AddProductByFarmer.jsx";
 import { Toaster } from "react-hot-toast";
 import DisplayProductsForFarmer from "./Pages/dashboard/farmers/FarmerDashboard/DisplayProductsForFarmer/DisplayProductsForFarmer2.jsx";
 import PrivateRoute, { RoleBasedRoute, RoleBasedRoutewholeseller } from "./components/Layout/routes/private";
 import WholesellerDashboard from "./Pages/dashboard/wholesellers/WholesellerDashboard/WholesellerDashboard.jsx";
 import WholesellerRoute from "./components/Layout/routes/WholeSellerRoute.js";
-import AfterLoginPageCommon from "./Pages/AfterLoginPageCommon/AfterLoginPageCommon.jsx";
-import ManageCategory from "./Pages/ManageCategory/ManageCategory.jsx";
-import ViewProducts from "./Pages/ViewProducts/ViewProducts.jsx";
-import UpdateProductFarmer from "./Pages/UpdateProductFarmer/UpdateProductFarmer.jsx";
-import BoughtProducts from "./Pages/BoughtProducts/BoughtProducts.jsx";
-import SearchProducts from "./Pages/SearchProducts/SearchProducts.jsx";
-import ProductDetails from "./Pages/ProductDetails/ProductDetails.jsx";
+import AfterLoginPageCommon from "./Pages/common/AfterLoginPageCommon/AfterLoginPageCommon.jsx";
+import ManageCategory from "./Pages/dashboard/admin/ManageCategory/ManageCategory.jsx";
+import ViewProducts from "./Pages/dashboard/farmers/FarmerDashboard/ViewProducts/ViewProducts.jsx";
+import UpdateProductFarmer from "./Pages/dashboard/farmers/FarmerDashboard/UpdateProductFarmer/UpdateProductFarmer.jsx";
+import BoughtProducts from "./Pages/dashboard/wholesellers/WholesellerDashboard/BoughtProducts/BoughtProducts.jsx";
+import SearchProducts from "./Pages/common/SearchProducts/SearchProducts.jsx";
+import ProductDetails from "./Pages/common/ProductDetails/ProductDetails.jsx";
 import CartPage from "./Pages/dashboard/wholesellers/cart/CartPage.jsx";
-import UpdatePeofileW from "./Pages/UpdatePeofileW/UpdatePeofileW.jsx";
-import ProfileUpdateFarmer from "./Pages/ProfileUpdateFarmer/ProfileUpdateFarmer.jsx";
+import UpdatePeofile from "./Pages/common/UpdatePeofile/UpdatePeofile.jsx";
+import ProfileUpdateFarmer from "./Pages/common/ProfileUpdateFarmer/ProfileUpdateFarmer.jsx";
 import HomepageForWholeseller from "./Pages/dashboard/farmers/FarmerDashboard/HomepageForWholeseller/HomepageForWholeseller.jsx";
-import ViewAcceptedProducts from "./Pages/ViewAcceptedProducts/ViewAcceptedProducts.jsx";
+import ViewAcceptedProducts from "./Pages/dashboard/farmers/FarmerDashboard/ViewAcceptedProducts/ViewAcceptedProducts.jsx";
 import BargainRes from "./components/Layout/bargainRes/BargainRes.jsx";
-import ProductList from "./Pages/bargainRespondpage/ProductList.jsx";
-import BargainAction from "./Pages/bargainACTIONFarmer/BargainAction.jsx";
-import RequestedProducts from "./Pages/WholesellerBargainStatus/WholesellerBargainStatus.jsx";
+import ProductList from "./Pages/dashboard/farmers/FarmerDashboard/bargainRespondpage/ProductList.jsx";
+import BargainAction from "../src/Pages/dashboard/farmers/FarmerDashboard/bargainACTIONFarmer/BargainAction.jsx";
+import RequestedProducts from "./Pages/dashboard/wholesellers/WholesellerDashboard/WholesellerBargainStatus/WholesellerBargainStatus.jsx";
 
 function App() {
   return (
@@ -72,7 +72,7 @@ function App() {
             <Route path="/Dashboard/BoughtProductss" element={<BoughtProducts />} />
             <Route path="/HomepageWholeseller/product/:slug" element={<ProductDetails />} />
             <Route path="/cart" element={<CartPage />} />
-            <Route path="/Dashboard/UpdateProfile" element={<UpdatePeofileW />} />
+            <Route path="/Dashboard/UpdateProfile" element={<UpdatePeofile />} />
             <Route path="/Dashboard/UpdateProfileFarmer" element={<ProfileUpdateFarmer />} />
             <Route path="/Dashboard/agreedProducts" element={<ViewAcceptedProducts />} />
           </Route>
